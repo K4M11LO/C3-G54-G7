@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenedor{
+    width: 1200px;
+    height: 1000px;
+    background-color: white;
+    margin: 0.5em auto;
+    padding: 00.5em;
+} 
+
+#header{
+    height: 5%;
+    background-color:  rgb(146, 38, 38);
+    margin: 1em;
+    border-radius: 1em;
+    }
+
+#nav{
+    height: 2%;
+}   
+#contenido{
+    height: 75%;
+    margin: 1em;
+    
+}
+#footer{
+    height: 5%;
+    background-color: rgb(146, 38, 38);
+    margin: 1em;
+    border-radius: 1 em;
+}
+
+
+#section{
+    height: 95%;
+    width: 30%;    
+    border-radius: 1em;
+    margin-left: 0.5em;
+    float: left;
+}
+
+#aside{
+    height: 35%;
+    width: 76%;
+    border: 1px solid black;
+    background-color: rgb(241, 238, 238);
+    border-radius: 1em;
+    margin-left: 1em;
+    margin-top: -45em;
+    float: right;
+    
+
+}
+.articulo{
+    width: 71%;
+    height: 15%;
+    border: 1px solid black;
+    background-color: lightgray;
+    margin:1 em;
+    border-radius: 1em;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 5em;
+    color:rgb(243, 240, 240);
+    
+}
+
+h2{
+    margin-left: 1em;
+
+}
+
+a{
+     color: black;
+     margin-left: 1em;
+     font-size: 1.8em;
+     
+}
+
+h4{
+    color: black;
+    margin-left: 1em;
+    font-size: 1.8em;
+    
+}
+label{
+    margin-left: 2em; 
+    font-size: 1.5em;
+}
+
+form{
+    margin-left: 2em;
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1em;
+}
+
+button{
+    float: right;
+    margin-right: 9em;   
+    border: 2px solid red;
+    
+    font-size: 1em;
+    
+}
