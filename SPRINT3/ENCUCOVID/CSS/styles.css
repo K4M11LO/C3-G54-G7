@@ -1,0 +1,61 @@
+body, html{
+    height: 100%; /* tamaño del body y html*/
+}
+
+body{
+    margin: 0;  /* Margenes afuera  del contenedor */
+    padding: 0; /* Espacios dentro del contenedor  */
+    background-color: aliceblue;  /* Color de fondo de pantalla*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-box{    /* se debe poner un punto para llamar las clases */
+width: 300px;
+padding: 40px;
+background-color:rgb(224, 238, 250);
+text-align: center;
+}
+
+.form-title{
+color: #00f;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.form-box button[type="submit"],
+.form-box input[type="text"],   /*Seleccion de los items a estilizar*/
+.form-box input[type="password"]{
+border: 0ch; /* Bordes de los items*/
+background: none;
+display: block; /* Genera un bloque para los items*/
+margin: 20px;
+padding: 14px 10px;  /*14alto 10ancho */
+text-align: center;
+border: 2px solid #000;
+width: 200px;
+outline: none;
+border-radius: 24px;
+transition: 0,25s;
+}
+
+
+.form-box input[type='text']:focus,
+.form-box input[type='password']:focus{
+width: 230px;
+border-color:orangered;
+}
+
+.form-box button[type='submit']{
+    border: 0px;
+    background: blue;
+    cursor: pointer;
+    border: 2px solid blue;
+}
+
+.form-box button[type='submit']:hover{
+    background: none;
+}
